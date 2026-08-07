@@ -1,0 +1,110 @@
+.details-container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.details-layout-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  transition: background-color var(--transition-speed);
+}
+
+@media (min-width: 768px) {
+  .details-layout-card {
+    grid-template-columns: 320px 1fr;
+  }
+}
+
+.details-cover-section {
+  width: 100%;
+  height: 420px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.details-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.details-category-badge {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.35rem 0.85rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.details-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+
+.details-author-line {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.author-name {
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.details-stats-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.stat-pill {
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-main);
+}
+
+.stat-pill.score {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.details-synopsis-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.details-synopsis-box p {
+  font-size: 1.05rem;
+  color: var(--text-main);
+  opacity: 0.9;
+  line-height: 1.7;
+}

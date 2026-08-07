@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  /* DYNAMIC: Automatically matches the navbar background and text color tokens for all 6 flavors */
+  background-color: var(--nav-bg); 
+  color: var(--nav-text);          
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+  margin-top: auto;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+.footer p {
+  opacity: 0.85; /* Softens the text slightly while keeping it perfectly readable over strong background colors */
+}

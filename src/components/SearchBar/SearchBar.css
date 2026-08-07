@@ -1,0 +1,145 @@
+/* ===========================
+      Search Section
+=========================== */
+
+.search-section{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:60px auto;
+
+    text-align:center;
+
+}
+
+/* Heading */
+
+.search-section h2{
+
+    font-size:36px;
+
+    color:#2C3E50;
+
+    margin-bottom:10px;
+
+}
+
+/* Paragraph */
+
+.search-section p{
+
+    color:#666;
+
+    font-size:17px;
+
+    margin-bottom:30px;
+
+}
+
+/* Search Box */
+
+.search-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+/* Input */
+
+.search-input{
+
+    width:500px;
+
+    max-width:100%;
+
+    padding:16px 22px;
+
+    border:2px solid #5E8B7E;
+
+    border-radius:40px;
+
+    font-size:17px;
+
+    background:white;
+
+    transition:.3s;
+
+}
+
+/* Input Focus */
+
+.search-input:focus{
+
+    border-color:#D4A017;
+
+    box-shadow:0 0 10px rgba(212,160,23,.3);
+
+}
+
+/* Button */
+
+.search-btn{
+
+    padding:16px 30px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#5E8B7E;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+/* Hover */
+
+.search-btn:hover{
+
+    background:#4A7468;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.search-container{
+
+    flex-direction:column;
+
+}
+
+.search-input{
+
+    width:100%;
+
+}
+
+.search-btn{
+
+    width:100%;
+
+}
+
+}

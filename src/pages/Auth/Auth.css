@@ -1,0 +1,104 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+  padding: 1rem;
+}
+
+.auth-card {
+  background-color: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: 3rem 2.5rem;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px var(--glow-color);
+}
+
+.auth-card h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.auth-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.auth-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.auth-group label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.auth-group input {
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  outline: none;
+  font-weight: 600;
+}
+
+.auth-group input:focus {
+  border-color: var(--primary-color);
+}
+
+.auth-submit-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 0.85rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.auth-submit-btn:hover {
+  background-color: var(--primary-hover);
+  transform: scale(1.02);
+}
+
+.auth-toggle-row {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.auth-toggle-row span {
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 700;
+}
