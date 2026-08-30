@@ -43,6 +43,8 @@
   box-shadow: 0 4px 6px rgba(0,0,0,0.04);
 }
 
+/* 0.5rem = 8px1rem = 16px1.25rem = 20px1.5rem = 24px2rem = 32px2.5rem = 40px3rem = 48px */
+
 .card-body {
   padding: 1.5rem;
   display: flex;
